@@ -1,1 +1,2 @@
 # Hibernate
+Use Hibernate & struts
