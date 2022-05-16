@@ -8,9 +8,10 @@
 </head>
 <body>
 <form action="addAction" method="post">
-	name:<input type="text" name="name">
-	chi:<input type="text" name="chi">
-	eng:<input type="text" name="eng">
+	成績登入<br>
+	name:<input type="text" name="name"><br>
+	chi:<input type="text" name="chi"><br>
+	eng:<input type="text" name="eng"><br>
 <input type="submit" name="ok">
 </form>
 </body>

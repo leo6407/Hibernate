@@ -29,4 +29,12 @@ public class addAtcion {
 		this.eng = eng;
 	}
 
+	/*
+	public String execute() {
+		student s = new student(getName(), getChi(), getEng());
+		new studentDao().add(s);
+		return "success";
+	}
+	*/
+
 }
