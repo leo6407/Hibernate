@@ -33,7 +33,7 @@ public class addAtcion {
 	}
 
 	
-	public String execute() {
+	public String execute() throws Exception{
 		student s = new student(getName(), getChi(), getEng());
 		new studentDao().add(s);
 		return "success";

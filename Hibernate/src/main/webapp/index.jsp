@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="BIG5">
+<meta charset="UTF-8">
 <title>成績登入系統</title>
 </head>
 <body>
