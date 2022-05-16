@@ -1,5 +1,8 @@
 package Controller;
 
+import Dao.studentDao;
+import Model.student;
+
 public class addAtcion {
 	private String name;
 	private Integer chi;
@@ -29,12 +32,11 @@ public class addAtcion {
 		this.eng = eng;
 	}
 
-	/*
+	
 	public String execute() {
 		student s = new student(getName(), getChi(), getEng());
 		new studentDao().add(s);
 		return "success";
 	}
-	*/
 
 }
