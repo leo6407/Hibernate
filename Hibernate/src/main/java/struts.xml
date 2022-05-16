@@ -6,7 +6,7 @@
 <struts>
 
 	<constant name="struts.devMode" value="true" />
-
+	
 	<package name="default" extends="struts-default">
 		<action name="addAction" class="Controller.addAction">
 			<result name="success" type="redirect">success.html</result>

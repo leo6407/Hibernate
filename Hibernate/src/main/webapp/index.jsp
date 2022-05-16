@@ -7,12 +7,12 @@
 <title>成績登入系統</title>
 </head>
 <body>
-<form action="addAction" method="post">
-	成績登入<br>
-	name:<input type="text" name="name"><br>
-	chi:<input type="text" name="chi"><br>
-	eng:<input type="text" name="eng"><br>
-<input type="submit" name="ok">
-</form>
+	<form action="addAction" method="post">
+		成績登入<br>
+		name:<input type="text" name="name"><br>
+		chi:<input type="text" name="chi"><br>
+		eng:<input type="text" name="eng"><br>
+		<input type="submit" name="ok">
+	</form>
 </body>
 </html>
