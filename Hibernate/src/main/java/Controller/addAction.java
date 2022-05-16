@@ -3,7 +3,7 @@ package Controller;
 import Dao.studentDao;
 import Model.student;
 
-public class addAtcion {
+public class addAction {
 	private String name;
 	private Integer chi;
 	private Integer eng;
@@ -32,8 +32,7 @@ public class addAtcion {
 		this.eng = eng;
 	}
 
-	
-	public String execute() throws Exception{
+	public String execute() throws Exception {
 		student s = new student(getName(), getChi(), getEng());
 		new studentDao().add(s);
 		return "success";
