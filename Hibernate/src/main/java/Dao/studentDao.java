@@ -11,7 +11,8 @@ import Model.student;
 public class studentDao implements implDao {
 
 	public static void main(String[] args) {
-
+		student s = new student("jobs", 50, 65);
+		new studentDao().add(s);
 	}
 
 	@Override
