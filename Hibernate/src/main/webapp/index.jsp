@@ -1,8 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="BIG5">
-<title>¦¨ÁZµn¤J¨t²Î</title>
+<title>æˆç¸¾ç™»å…¥ç³»çµ±</title>
 </head>
 <body>
 <form action="addAction" method="post">
